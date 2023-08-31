@@ -43,7 +43,6 @@ data.sort_values('Date', inplace=True)
 data['Days'] = (data['Date'] - data['Date'].min()).dt.days
 
 
-
 # Create the Open Price vs Close Price chart with dates on the x-axis
 plt.figure(figsize=(10, 6))
 plt.plot(data['Date'], data['Open Price'], label='Open Price', color='blue')
