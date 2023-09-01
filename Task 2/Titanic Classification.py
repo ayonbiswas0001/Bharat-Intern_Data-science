@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sns 
 
 # Load the Titanic data from CSV
 data = pd.read_csv('titanic.csv')  # Replace 'titanic.csv' with your actual file name
