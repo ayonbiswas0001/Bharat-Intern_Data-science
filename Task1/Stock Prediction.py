@@ -10,7 +10,7 @@ data = pd.read_csv('Tata-steel.csv')
 # Convert the 'Date' column to datetime
 data['Date'] = pd.to_datetime(data['Date'])
 
-# Sort data by date
+# Sort data by date 
 data.sort_values('Date', inplace=True)
 
 # Calculate the number of days since the first date
